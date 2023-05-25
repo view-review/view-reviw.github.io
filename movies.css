@@ -1,0 +1,50 @@
+
+            body {
+              background-color: #ffffff;
+              margin: 0;
+              padding: 0;
+              border: 0;
+            }
+            h2 {
+              font-family: 'Noto Sans', serif;
+              font-size: 2em;
+              color: #000000;
+            }
+            p {
+              font-family: 'Noto Sans', sans-serif;
+              font-size: 1em;
+              line-height: 1.5em;
+              color: #666;
+              margin: 30px 0;
+              text-indent: 30px;
+            }
+            .image {
+              background: url("https://variety.com/wp-content/uploads/2022/10/20th-Century-Girl.jpg?w=1000") no-repeat fixed;
+              background-position: center center;
+              background-size: cover;
+              min-height: 500px;
+            }
+            .content {
+              max-width: 960px;
+              margin: 0 auto;
+              box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              position: relative;
+              z-index: 2;
+              height: 100%;
+            }
+
+            .grid{
+              display: grid;
+              grid-template-columns: auto auto auto;
+                grid-template-rows: repeat(5 auto);
+                background-color: #eb93ff5a;
+                padding: 10px;
+            }
+            .grid-item {
+                background-color: rgba(234, 130, 255, 0.194);
+                border: 1px solid rgba(0, 0, 0, 0);
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+            }
