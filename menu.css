@@ -1,0 +1,59 @@
+@font-face {
+    font-family:titles;
+    src: url(LEMONMILK-Light.otf);
+    font-family: text;
+    src: url(LEMONMILK-Regular.otf);
+  }
+.box {
+  display: inline-block;
+  float: left;
+  height: 150px;
+  overflow: hidden;
+  width: 20%;
+  -webkit-transition: width 1.2s;
+  -moz-transition: width 1.2s;
+  transition: width 1.2s;
+}
+.box.Home {
+  background-color: #b6b4f4;
+}
+.box.Movies {
+  background-color: #AE7EB4;
+}
+.box.Series {
+  background-color: #cc9dee;
+}
+.box.Documentaries {
+  background-color: #343460;
+}
+.box.Sign-in {
+  background-color: #B074B2;
+}
+.box a {
+  color: #eeeeee;
+  text-decoration: none;
+  text-align: center; 
+  vertical-align: middle;
+  height: 100%;
+  display: block;
+  padding-top: 20px;
+}
+.box span {
+  display: block;
+  position: relative;
+  top: 100%;
+  text-align: center;
+  -webkit-transition: top 1s;
+  -moz-transition: top 1s;
+  transition: top 1s;
+}
+.nav:hover .box {
+  width: 10%;
+}
+.nav .box:hover {
+  width: 60%;
+}
+.box:hover span {
+  top: 25%;
+}
+
